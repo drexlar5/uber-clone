@@ -1,3 +1,3 @@
-const KEY = 'AIzaSyDhLsaXo7dbz_Ppofuk5uHF_X2B8Sb_tBI';
+const KEY = 'enter-your-api-key-here';
 
 module.exports = KEY;
