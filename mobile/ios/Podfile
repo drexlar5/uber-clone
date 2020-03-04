@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'UberApp' do
-  # Pods for UberApp
+target 'MyTaxxi' do
+  # Pods for MyTaxxi
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'UberApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'UberAppTests' do
+  target 'MyTaxxiTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'UberApp' do
   use_native_modules!
 end
 
-target 'UberApp-tvOS' do
-  # Pods for UberApp-tvOS
+target 'MyTaxxi-tvOS' do
+  # Pods for MyTaxxi-tvOS
 
-  target 'UberApp-tvOSTests' do
+  target 'MyTaxxi-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
